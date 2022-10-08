@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic&display=swap" rel="stylesheet">
+    <title>British School System</title>
+    <style>
+        body{
+    background : #ffffff;
+}
+
+.header{
+    text-align: center;
+    margin-top: 75px;
+    font-size: 29px;
+    font-weight: bold;
+    margin-left:-71px;
+    font-size: 45px;
+    font-family: 'Noto Sans Arabic', sans-serif;
+
+}
+
+.container{
+    width: 300px;
+    margin-left: 578px;
+    margin-top: 112px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+  }
+  
+  button {
+    background-color: #0470aa;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #055681;
+  }
+
+  .unamelbl{
+    margin-left: 227px;
+  }
+
+  .pswlbl{
+    margin-left: 227px;
+  }
+  .qwe{
+    font-size: 12px;
+    font-family: 'Noto Sans Arabic', sans-serif;
+  }
+  
+    </style>
+</head>
+<body>
+
+    <p class="header">مدارس ومعاهد التعليم البريطانية</p>
+    <hr color="#055681" size="3"">
+    <div class="container">
+        <label for="uname" class="unamelbl" id="user" placeholder="Choose Username"><b class="qwe">اسم المستخدم</b></label>
+        <input type="text" placeholder="ادخل اسم المستخدم" name="uname" required>
+    
+        <label for="psw" class="pswlbl" id="pass" placeholer="Choose Password"><b class="qwe">كلمة المرور</b></label>
+        <input type="password" placeholder="ادخل كلمة المرور" name="psw" required>
+            
+        <button type="button" onclick="getInfo()">تسجيل الدخول</button>
+                
+        
+      </div>
+      
+      <div><a href="test.html" id="test">testttttttttt</a></div>
+
+
+      <script src="main.js"></script>
+</body>
+</html>
